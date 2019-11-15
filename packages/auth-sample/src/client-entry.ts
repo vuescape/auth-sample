@@ -16,7 +16,7 @@ const getStoreModulesToRegister = async () => {
     logoAltText: 'CoMetrics',
     shouldDisplayHelp: false,
     logoUrl: headerImgUrl,
-    shouldShowHeader: true,
+    shouldShowHeader: false,
   }
   const theHeaderConfigurationModule = makeStoreModule(theHeaderConfiguration)
 
